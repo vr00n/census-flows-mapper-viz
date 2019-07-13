@@ -35,6 +35,7 @@ Change `YYYY` to the ending year of the survey dataset you want to pull
 ```curl -s "https://api.census.gov/data/YYYY/acs/flows?key=0a8afabaacd0aca63a1e6bfb384cb2a97c68ce56&get=MOVEDIN,MOVEDIN_M,GEOID2,COUNTY2_NAME,STATE2_NAME,COUNTY1_NAME,STATE1_NAME&for=county:013&in=state:01"| json2csv | sed 1,1d  >> YYYY_MASTER_IN.csv```
 
 The files are of the following format 
+
 |MOVEDIN|MOVEDIN_M|GEOID2|COUNTY2_NAME|STATE2_NAME|COUNTY1_NAME|STATE1_NAME|state|county|
 |--|--|--|--|--|--|--|--|--|--|
 |980|196|6037|Los Angeles County|California|Kings County|New York|36|47|
