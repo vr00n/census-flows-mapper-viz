@@ -2,9 +2,10 @@
 ## Why 
 Visualizing the longitudinal migration of people into the United States of America at the county level is just my idea of fun :)
 
+[This visualization can be accessed here](https://flowmap.blue/1uGaROER7uvjlc9CyBHDELNzZatdgLrI9gJSQoEbcH3o)
+
 ![Census Flows Data visualized ](https://pbs.twimg.com/media/D-5YKpXWkAAl_oG.jpg)
 
-[This visualization can be accessed here]
 
 ## What
 Visualizing data from Census Flows Mapper website https://flowsmapper.geo.census.gov/map.html#
@@ -112,3 +113,10 @@ Just discovered that this data has 66 variables but I've only used a few here.
 |TOPUERTORICO_M|Movers to Puerto Rico margin of error|not required|int
 
 
+## Next Steps
+
+Tableauing FROM-County_State --> TO-County_State
+
+![image](https://user-images.githubusercontent.com/4397663/61172507-5943e080-a553-11e9-836c-44ffb667b55a.png)
+
+![image](https://user-images.githubusercontent.com/4397663/61172512-652fa280-a553-11e9-9288-c18982e67954.png)
