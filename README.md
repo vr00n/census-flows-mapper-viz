@@ -10,14 +10,13 @@ Visualizing the longitudinal migration of people into the United States of Ameri
 ## What
 Visualizing data from Census Flows Mapper website https://flowsmapper.geo.census.gov/map.html#
 
-via https://api.census.gov/data/2016/acs/flows.html
 
-Migration flows are derived from the relationship between the location of current residence in the American Community Survey (ACS) sample and the responses given to the migration question "Where did you live 1 year ago?". There are flow statistics (moved in, moved out, and net moved) between county or minor civil division (MCD) of residence and county, MCD, or world region of residence 1 year ago. Estimates for MCDs are only available for the 12 strong-MCD states, where the MCDs have the same government functions as incorporated places. Migration flows between metropolitan statistical areas are available starting with the 2009-2016 5-year ACS dataset. In addition to the flow estimates, there are supplemental statistics files that contain migration/geographical mobility estimates (e.g., nonmovers, moved to a different state, moved from abroad) for each county, MCD, or metro area.	
+"Migration flows are derived from the relationship between the location of current residence in the American Community Survey (ACS) sample and the responses given to the migration question "Where did you live 1 year ago?". There are flow statistics (moved in, moved out, and net moved) between county or minor civil division (MCD) of residence and county, MCD, or world region of residence 1 year ago. Estimates for MCDs are only available for the 12 strong-MCD states, where the MCDs have the same government functions as incorporated places. Migration flows between metropolitan statistical areas are available starting with the 2009-2016 5-year ACS dataset. In addition to the flow estimates, there are supplemental statistics files that contain migration/geographical mobility estimates (e.g., nonmovers, moved to a different state, moved from abroad) for each county, MCD, or metro area." via https://api.census.gov/data/2016/acs/flows.html
 
 ## How
 
 ### FLOWS_data.zip
-This file contains 7 datasets, each containing Flows data spanning the following survey years.
+This file contains 7 datasets, each containing Flows data spanning the following survey years and was obtained from `get_data_from_census.sh`
 
 - 2006-2010
 - 2007-2011
