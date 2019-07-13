@@ -34,13 +34,19 @@ For example: ACS 5-year data `2012-2016` is `2016` in the below script
 Change `YYYY` to the ending year of the survey dataset you want to pull
 ```curl -s "https://api.census.gov/data/YYYY/acs/flows?key=0a8afabaacd0aca63a1e6bfb384cb2a97c68ce56&get=MOVEDIN,MOVEDIN_M,GEOID2,COUNTY2_NAME,STATE2_NAME,COUNTY1_NAME,STATE1_NAME&for=county:013&in=state:01"| json2csv | sed 1,1d  >> YYYY_MASTER_IN.csv```
 
-The files are of the following format 
+The files are of the following format:
 
 |MOVEDIN|MOVEDIN_M|GEOID2|COUNTY2_NAME|STATE2_NAME|COUNTY1_NAME|STATE1_NAME|state|county|
-|--|--|--|--|--|--|--|--|--|--|
+|--|--|--|--|--|--|--|--|-|
 |980|196|6037|Los Angeles County|California|Kings County|New York|36|47|
 
-### Metadata
+and describes flows FROM LA County, California --> Kings County (Brooklyn), New York.
+
+A flow = The origin and destination combination of two counties for either migration or commuting. Each flow has at least three unweighted persons (i.e., movers).
+
+
+
+### Full Metadata
 Census Data API: Variables in /data/2016/acs/flows/variables			
 Just discovered that this data has 66 variables but I've only used a few here.
 
